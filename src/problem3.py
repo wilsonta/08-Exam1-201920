@@ -12,7 +12,7 @@ import time
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_problem3a()
+    #run_test_problem3a()
     run_test_problem3b()
 
 
@@ -165,7 +165,6 @@ def problem3a(r, s):
     for k in range(s+1-r):
         count=0
         cubed=(k+r)**3
-        if n>0
         if sum_of_digits(cubed)==2*n+1:
             count=count+(k+r)
         return count
